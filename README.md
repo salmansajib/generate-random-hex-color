@@ -33,5 +33,5 @@ To get started with this project, you'll need to have [Vite](https://vitejs.dev/
 
 3.**Start the development server:**
 
-  ```bash
-  pnpm run dev
+   ```bash
+   pnpm run dev
