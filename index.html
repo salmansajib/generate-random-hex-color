@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Generate Random Color</title>
+  </head>
+  <body>
+    <main id="app" class="min-h-screen flex items-center justify-center">
+      <section class="flex flex-col items-center justify-center gap-8">
+        <p class="flex items-center justify-center flex-col">
+          <span class="text-3xl font-semibold">Click The Button</span>
+          <span class="text-lg">To Generate A Random Color</span>
+        </p>
+        <div
+          id="color-container"
+          class="w-[300px] md:w-[500px] h-64 rounded-md"
+        ></div>
+        <p id="show-hex-code"></p>
+        <button
+          id="btn"
+          class="bg-zinc-950 border-2 border-transparent px-8 py-2 rounded-md text-gray-100 hover:border-zinc-950 hover:bg-gray-50 hover:text-zinc-950 transition-colors"
+        >
+          Click
+        </button>
+      </section>
+    </main>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
