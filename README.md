@@ -25,3 +25,8 @@ To get started with this project, you'll need to have [Vite](https://vitejs.dev/
    ```bash
    git clone https://github.com/your-username/random-hex-color-generator.git
    cd random-hex-color-generator
+
+2. **Install dependencies using pnpm
+
+   ```bash
+   pnpm install
